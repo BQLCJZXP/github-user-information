@@ -1,6 +1,6 @@
-## Aplikacja / zadanie: github-user-information
+﻿## Aplikacja / zadanie: github-user-information
 
-Aplikacja github-user-information z informacjami o uzytkownikach GitHub.
+Aplikacja github-user-information z informacjami o użytkownikach GitHub.
 
 - Struktura odpowiedzi serwisu w formacie JSON:
 	+ Identyfikator
@@ -12,7 +12,7 @@ Aplikacja github-user-information z informacjami o uzytkownikach GitHub.
 	+ Obliczenia
 
 
-### Endpoint do serwisu REST:
+### Endpoint do serwisu REST (parametr login jest nazwą użytkownika GitHub):
 
 ```
 http://localhost:8080/users/{login}
