@@ -1,6 +1,6 @@
-package com.example.github_user_information.repository;
+package com.restservice.github_user_information.repository;
 
-import com.example.github_user_information.model.GitHubUserAudit;
+import com.restservice.github_user_information.model.GitHubUserAudit;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

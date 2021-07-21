@@ -1,7 +1,7 @@
-package com.example.github_user_information.service;
+package com.restservice.github_user_information.service;
 
-import com.example.github_user_information.model.GitHubUserAudit;
-import com.example.github_user_information.repository.GitHubUserAuditRepository;
+import com.restservice.github_user_information.model.GitHubUserAudit;
+import com.restservice.github_user_information.repository.GitHubUserAuditRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 

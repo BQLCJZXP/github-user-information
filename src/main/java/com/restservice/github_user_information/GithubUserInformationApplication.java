@@ -1,4 +1,4 @@
-package com.example.github_user_information;
+package com.restservice.github_user_information;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

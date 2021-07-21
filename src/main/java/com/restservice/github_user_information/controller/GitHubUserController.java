@@ -1,7 +1,7 @@
-package com.example.github_user_information.controller;
+package com.restservice.github_user_information.controller;
 
-import com.example.github_user_information.model.GitHubUser;
-import com.example.github_user_information.service.GitHubUserService;
+import com.restservice.github_user_information.model.GitHubUser;
+import com.restservice.github_user_information.service.GitHubUserService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;

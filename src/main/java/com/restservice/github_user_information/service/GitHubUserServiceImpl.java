@@ -1,7 +1,7 @@
-package com.example.github_user_information.service;
+package com.restservice.github_user_information.service;
 
-import com.example.github_user_information.model.GitHubUser;
-import com.example.github_user_information.model.GitHubUserDTO;
+import com.restservice.github_user_information.model.GitHubUser;
+import com.restservice.github_user_information.model.GitHubUserDTO;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Service;
@@ -32,7 +32,10 @@ class GitHubUserServiceImpl implements GitHubUserService {
         GitHubUserDTO gitHubUserDTO = restTemplate.exchange(URL_GITHUB_USER_SERVICE + userLogin,
                 HttpMethod.GET, HttpEntity.EMPTY, GitHubUserDTO.class).getBody();
 
-        GitHubUser gitHubUser = setGitHubUserProperties(gitHubUserDTO);
+        GitHubUser gitHubUser = null;
+        if (gitHubUserDTO != null) {
+            gitHubUser = setGitHubUserProperties(gitHubUserDTO);
+        }
         auditUserService.saveAuditUserData(userLogin);
         return gitHubUser;
     }

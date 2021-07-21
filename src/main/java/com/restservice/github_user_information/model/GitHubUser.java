@@ -1,4 +1,4 @@
-package com.example.github_user_information.model;
+package com.restservice.github_user_information.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

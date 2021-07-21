@@ -1,4 +1,4 @@
-package com.example.github_user_information.service;
+package com.restservice.github_user_information.service;
 
 public interface AuditUserService {
 

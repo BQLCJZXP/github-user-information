@@ -1,5 +1,5 @@
 
-package com.example.github_user_information.model;
+package com.restservice.github_user_information.model;
 
 import java.io.Serializable;
 import javax.annotation.Generated;
