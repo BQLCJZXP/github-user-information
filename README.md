@@ -18,7 +18,7 @@ Aplikacja github-user-information z informacjami o użytkownikach GitHub.
 http://localhost:8080/users/{login}
 ```
 
-### Endpoint do bazy H2
+### Endpoint do bazy H2 (in memory):
 
 ```
 http://localhost:8080/h2-console/

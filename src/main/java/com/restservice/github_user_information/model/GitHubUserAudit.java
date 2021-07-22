@@ -4,7 +4,6 @@ import javax.persistence.*;
 
 @Entity
 public class GitHubUserAudit {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
